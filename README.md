@@ -7,19 +7,21 @@ RA2311003011641
 js1174@srmist.edu.in
 
 Team Member 2 : 
+Supriya Namasivayam
+RA2311003011661
+sn5292@srmist.edu.in
+
+Team Member 3 : 
 Jecin Elizabeth Rajesh
 RA2311003011634
 jr2412@srmist.edu.in
 
-Team Member 3 : 
+Team Member 4 : 
 Mithuna Rajendran
 RA2311003011636
 mr0666@srmist.edu.in
 
-Team Member 4 : 
-Supriya Namasivayam
-RA2311003011661
-sn5292@srmist.edu.in
+
 
 TRACK : OPEN INNOVATIONS
 ANTIBIOTIC RESISTANCE IN BACTERIA
