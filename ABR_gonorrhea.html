@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antibiotic Resistance</title>
+    <style>
+        
+        body {
+            font-family: "Times New Roman", Times, serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        
+        .navbar {
+            background-color: #333;
+            padding: 14px 20px;
+            color: white;
+            text-align: left;
+        }
+
+        .navbar h1 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+
+        
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        
+        .main-image {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            border-radius: 8px;
+            margin: 0 auto;
+        }
+
+        
+        .main-text {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #333;
+        }
+
+        
+        .image-column {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px auto;
+            width: 100%;
+            max-width: 800px;
+        }
+
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .image-container h3 {
+            margin: 10px 0;
+        }
+
+        .image-container button {
+            padding: 10px 15px;
+            font-size: 14px;
+            border: none;
+            background-color: #777;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .image-container button:hover {
+            background-color: #555;
+        }
+
+        
+        .text-content {
+            display: none;
+            margin: 10px 0;
+            font-size: 16px;
+        }
+
+        
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        
+        @media (max-width: 800px) {
+            .main-image, .image-container img {
+                max-width: 100%;
+            }
+        }
+
+        @media (max-width: 500px) {
+            .navbar h1 {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    
+    <div class="navbar">
+        <h1>JASJEMI</h1>
+    </div>
+
+    
+    <div class="container">
+        
+        <img class="main-image" src="https://microseum.net/assets/images/superbakterije/uvodna/ring-borba.png" alt="Main Image">
+
+        <p class="main-text">Antibiotic resistance is a growing global health crisis, where bacteria evolve mechanisms to survive exposure to antibiotics, rendering standard treatments ineffective</p>
+        <p class="main-text">This page helps us to identify which is one of the best antibiotic to treat the bacterial infection Gonorrhea caused by the bacteria Neisseria Gonorrhoea</p>
+        
+        <div class="image-column">
+            <div class="image-container">
+                <img src="https://i.postimg.cc/SRsH2c94/2024-08-31-10-29-AM-Office-Lens-2.png" alt="Image 2">
+                <h3>CEFIXIME</h3>
+                <button onclick="showText(2)">uncover!!!</button>
+                <p class="text-content" id="text2">This antibiotic was patented way back in 1979 and initially came into use in 1989 in the United States. Its efficacy is predicted to be at around 76 percent as per the dataset.</p>
+            </div>
+            <div class="image-container">
+                <img src="https://i.postimg.cc/TwQZ3tpQ/2024-08-31-10-29-AM-Office-Lens-4.png" alt="Image 4">
+                <h3>CEFTRIAXONE</h3>
+                <button onclick="showText(4)">uncover!!!</button>
+                <p class="text-content" id="text4">This antibiotic was patented in 1978 and approved to come into use in the year 1982, it is also available as a genetic medication in addition to its anti-bacterial properties. Its efficacy is predicted to be at around 74.8 percent according to the dataset.</p>
+            </div>
+            <div class="image-container">
+                <img src="https://i.postimg.cc/hv569h8d/2024-08-31-10-29-AM-Office-Lens-5.png" alt="Image 5">
+                <h3>AZITHROMYCIN</h3>
+                <button onclick="showText(5)">uncover!!!</button>
+                <p class="text-content" id="text5">This antibiotic was patented in 1981 and came into use in 1991, launched by Pfizer under the name "Zithromax".Its efficacy is predicted to be at around 70.8 percent according to the dataset.</p>
+            </div>
+            <div class="image-container">
+                <img src="https://i.postimg.cc/YqjwhBNF/2024-08-31-10-29-AM-Office-Lens-1.png" alt="Image 1">
+                <h3>CIPROFLOXACIN</h3>
+                <button onclick="showText(1)">uncover!!!</button>
+                <p class="text-content" id="text1"> Patented in 1980 and introduced by Bayer in 1987. It is a second generation broad spectrum anitbiotic. Its efficacy is predicted to be at around 68.8 percent according to the dataset.</p>
+            </div>
+            <div class="image-container">
+                <img src="https://i.postimg.cc/cJGq9Kp7/2024-08-31-10-29-AM-Office-Lens-3.png" alt="Image 3">
+                <h3>PENICILLIN</h3>
+                <button onclick="showText(3)">uncover!!!</button>
+                <p class="text-content" id="text3">Fleming discovered Penicillin in 1928 and traditionally used to treat bacterial infections such as strep throat and ear infections. Penicillin as a form of treatment for Gonorrhea is not prevalent anymore.   </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; jasjemi | <a href="https://colab.research.google.com/drive/1H4HPcBcduRiha1SfrjrsvxqVkgZYsHvi?usp=sharing">To take a look at our project</a></p>
+    </div>
+
+    <script>
+        function showText(id) {
+            var textElement = document.getElementById('text' + id);
+            if (textElement.style.display === 'none' || textElement.style.display === '') {
+                textElement.style.display = 'block';
+            } else {
+                textElement.style.display = 'none';
+            }
+        }
+    </script>
+
+</body>
+</html>
